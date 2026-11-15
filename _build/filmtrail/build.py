@@ -13,6 +13,8 @@ OUT = REPO / "filmtrail"
 SITE = json.loads((REPO / "_build" / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["base"] + "filmtrail/"
 EMAIL = SITE["email"]
+# Store listing for the Google Play badge (commented out in landing.html until the production release).
+PLAY = html.escape(SITE["filmtrail_play"], quote=True)
 SCRIPT = (BUILD / "script.html").read_text(encoding="utf-8")
 # Same seven languages as FilmDesk (the app itself is in English and Vietnamese).
 LANGS = [
@@ -108,7 +110,7 @@ for code, folder, tag, short, _ in LANGS:
         faqs="\n".join(f"      <details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in text["faqs"]),
         mail_href=mailto(text["mail_subject"], text["mail_body"]), email=EMAIL, email_wbr=EMAIL.replace("@", "@<wbr>"), code=code, html_lang=tag,
         url=BASE + folder, base=BASE, root=root, hreflangs=alternates(""), langmenu=lang_menu(folder, root, ""),
-        lang_short=short, script=SCRIPT)
+        lang_short=short, script=SCRIPT, play_url=PLAY, badge=code.lower())
     render(template, values, code, OUT / folder / "index.html")
 
 # Privacy policy. English is the official text. Section HTML is trusted (written here), so it is not escaped.

@@ -96,5 +96,14 @@
 "alt_3": "Film Stock screen: rolls in stock with ISO, format and expiry date",
 "alt_4": "Gear screen: camera bodies with photos, rolls shot and last use",
 "alt_5": "Gallery screen: albums made from Logbook photos",
-"alt_6": "Scan Compare screen: the same frame from the original scan and the rescan, stacked"
+"alt_6": "Scan Compare screen: the same frame from the original scan and the rescan, stacked",
+"play_alt": "Get it on Google Play",
+"play_legal": "Google Play and the Google Play logo are trademarks of Google LLC.",
+"og_description_live": "Rolls, film stock, gear, labs and your scans in one place. Free on Google Play.",
+"closing_h_live": "Start your logbook today.",
+"closing_p_live": "FilmDesk is free on Google Play, for Android 8 and up. Pro is a one-time purchase, whenever you want it.",
+"q5": "Why does FilmDesk take more space after restoring from Google Drive?",
+"a5": "Google Drive keeps your photos at full quality, so a restore brings back full-size copies, about 4 times bigger than Optimized ones. To free space, go to Settings → Storage → Optimize original copies, or pick Optimize originals in a roll's menu. Each copy becomes a JPEG with the long edge at 2048 px. The full-quality files on Drive stay as they are, and photos still waiting to upload are optimized after they reach Drive.",
+"q6": "Is an optimized copy good enough for Instagram or Facebook?",
+"a6": "Yes. Instagram shows photos about 1080 px wide and Facebook up to about 2048 px, so they shrink bigger files anyway. A 2048 px copy looks the same in the feed, sends faster and uses less mobile data. When the original is still in your phone's gallery, Share sends that instead."
 }

@@ -100,6 +100,11 @@ a { color: inherit; }
 .cta-note a { color: var(--ink); font-weight: 700; overflow-wrap: anywhere; }
 .closing-cta { max-width: 360px; }
 .closing .cta-note { margin-top: 22px; }
+/* Google Play badge: Google's official artwork, shown unmodified. Not used yet: see PHAT-HANH-GOOGLE-PLAY.md. */
+.play-badge { display: inline-block; line-height: 0; }
+.play-badge img { display: block; width: 216px; height: auto; }
+.play-badge:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.play-legal { font-size: 11px; color: var(--ink-muted); margin: 14px 0 0; max-width: 44ch; }
 
 .phone {
   width: min(300px, 100%); margin: 0 auto; aspect-ratio: 9 / 19; background: var(--strip);

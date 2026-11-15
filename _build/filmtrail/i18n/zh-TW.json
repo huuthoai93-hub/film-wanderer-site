@@ -112,5 +112,8 @@
   "closing_p": "FilmTrail 正在測試中。寄一封信給我們，App 在 Google Play 上架當天我們會回覆一次。",
   "footer_stamp": "為底片而做",
   "footer_privacy": "隱私權政策",
-  "status_small": "測試中"
+  "status_small": "測試中",
+  "play_alt": "立即前往 Google Play 下載",
+  "play_legal": "Google Play 和 Google Play 標誌是 Google LLC 的商標。",
+  "closing_p_live": "FilmTrail 在 Google Play 免費下載，沒有廣告也沒有 App 內購買。"
 }

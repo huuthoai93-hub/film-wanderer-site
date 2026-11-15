@@ -112,5 +112,8 @@
   "closing_p": "FilmTrail はテスト中です。メールを一通送っていただければ、Google Play で公開された日に一度だけ返信します。",
   "footer_stamp": "フィルムのために",
   "footer_privacy": "プライバシーポリシー",
-  "status_small": "テスト中"
+  "status_small": "テスト中",
+  "play_alt": "Google Play で手に入れよう",
+  "play_legal": "Google Play および Google Play ロゴは Google LLC の商標です。",
+  "closing_p_live": "FilmTrail は Google Play で無料。広告もアプリ内課金もありません。"
 }

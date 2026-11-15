@@ -96,5 +96,14 @@
 "alt_3": "Màn Kho phim: các cuộn trong kho với ISO, khổ phim và hạn dùng",
 "alt_4": "Màn Thiết bị: thân máy có ảnh, số cuộn đã chụp và lần dùng gần nhất",
 "alt_5": "Màn Album: các album tạo từ ảnh trong Logbook",
-"alt_6": "Màn So sánh scan: cùng một khung của bản scan gốc và bản scan lại, xếp trên dưới"
+"alt_6": "Màn So sánh scan: cùng một khung của bản scan gốc và bản scan lại, xếp trên dưới",
+"play_alt": "Tải nội dung trên Google Play",
+"play_legal": "Google Play và biểu trưng Google Play là nhãn hiệu của Google LLC.",
+"og_description_live": "Cuộn phim, kho phim, máy ảnh, lab và ảnh scan ở cùng một chỗ. Miễn phí trên Google Play.",
+"closing_h_live": "Mở trang nhật ký đầu tiên.",
+"closing_p_live": "FilmDesk miễn phí trên Google Play, chạy trên Android 8 trở lên. Pro là gói mua một lần, mua lúc nào cũng được.",
+"q5": "Vì sao FilmDesk chiếm nhiều bộ nhớ hơn sau khi khôi phục từ Google Drive?",
+"a5": "Google Drive giữ ảnh ở chất lượng gốc, nên khi khôi phục, app tải về bản sao nguyên kích thước, nặng gấp khoảng 4 lần bản tối ưu. Để giải phóng bộ nhớ, vào Cài đặt → Dung lượng → Tối ưu các bản nguyên bản, hoặc chọn Tối ưu bản nguyên bản trong menu của từng cuộn. Mỗi bản sao được chuyển thành JPEG có cạnh dài 2048 px. Bản chất lượng gốc trên Drive vẫn giữ nguyên, ảnh còn chờ tải lên sẽ được tối ưu sau khi đã lên Drive.",
+"q6": "Bản tối ưu có đủ đẹp để đăng Instagram hay Facebook không?",
+"a6": "Đủ. Instagram hiển thị ảnh rộng khoảng 1080 px, Facebook tối đa khoảng 2048 px, nên file lớn hơn đằng nào cũng bị thu nhỏ. Bản 2048 px trông y như vậy trên bảng tin, gửi nhanh hơn và tốn ít dữ liệu di động hơn. Nếu ảnh gốc vẫn còn trong thư viện máy, nút Chia sẻ sẽ gửi ảnh gốc."
 }
