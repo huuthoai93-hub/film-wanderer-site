@@ -96,5 +96,14 @@
 "alt_3": "Stock de films : pellicules avec ISO, format et date de péremption",
 "alt_4": "Matériel : boîtiers avec photo, pellicules exposées et dernière sortie",
 "alt_5": "Galerie : albums créés à partir des photos du carnet",
-"alt_6": "Comparer les scans : la même vue du scan d'origine et du nouveau scan, l'une au-dessus de l'autre"
+"alt_6": "Comparer les scans : la même vue du scan d'origine et du nouveau scan, l'une au-dessus de l'autre",
+"play_alt": "Disponible sur Google Play",
+"play_legal": "Google Play et le logo Google Play sont des marques de Google LLC.",
+"og_description_live": "Pellicules, stock de films, matériel, labos et scans au même endroit. Gratuit sur Google Play.",
+"closing_h_live": "Commencez votre carnet dès aujourd’hui.",
+"closing_p_live": "FilmDesk est gratuit sur Google Play, pour Android 8 et plus. Pro est un achat unique, quand vous le souhaitez.",
+"q5": "Pourquoi FilmDesk prend-il plus de place après une restauration depuis Google Drive ?",
+"a5": "Google Drive garde vos photos en pleine qualité : la restauration récupère donc des copies en taille réelle, environ 4 fois plus lourdes que les copies optimisées. Pour libérer de l’espace, ouvrez Paramètres → Stockage → Optimiser les copies originales, ou choisissez Optimiser les originaux dans le menu d’une pellicule. Chaque copie devient un JPEG de 2048 px sur le grand côté. Les fichiers en pleine qualité sur Drive restent intacts, et les photos encore en attente d’envoi sont optimisées une fois arrivées sur Drive.",
+"q6": "Une copie optimisée suffit-elle pour Instagram ou Facebook ?",
+"a6": "Oui. Instagram affiche les photos sur environ 1080 px de large et Facebook jusqu’à environ 2048 px : les fichiers plus grands y sont réduits de toute façon. Une copie de 2048 px rend pareil dans le fil, part plus vite et consomme moins de données mobiles. Si l’original est encore dans la galerie du téléphone, Partager envoie l’original."
 }

@@ -112,5 +112,8 @@
   "closing_p": "FilmTrail은 테스트 중입니다. 이메일을 한 통 보내 주시면 Google Play에 출시되는 날 한 번만 답장합니다.",
   "footer_stamp": "필름을 위해 만듦",
   "footer_privacy": "개인정보처리방침",
-  "status_small": "테스트 중"
+  "status_small": "테스트 중",
+  "play_alt": "Google Play에서 다운로드",
+  "play_legal": "Google Play 및 Google Play 로고는 Google LLC의 상표입니다.",
+  "closing_p_live": "FilmTrail은 Google Play에서 무료이며 광고도 인앱 결제도 없습니다."
 }

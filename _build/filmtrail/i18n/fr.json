@@ -112,5 +112,8 @@
   "closing_p": "FilmTrail est en test. Envoyez-nous un e-mail : nous répondrons une seule fois, le jour où l'app sera sur Google Play.",
   "footer_stamp": "FAIT POUR LE FILM",
   "footer_privacy": "Politique de confidentialité",
-  "status_small": "EN TEST"
+  "status_small": "EN TEST",
+  "play_alt": "Disponible sur Google Play",
+  "play_legal": "Google Play et le logo Google Play sont des marques de Google LLC.",
+  "closing_p_live": "FilmTrail est gratuit sur Google Play, sans pub ni achat intégré."
 }

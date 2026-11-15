@@ -24,4 +24,6 @@ Sửa xong, chạy ở thư mục gốc repo rồi commit cả file sinh ra:
 python3 _build/build_all.py
 ```
 
+Khi FilmDesk hoặc FilmTrail lên production: xem `PHAT-HANH-GOOGLE-PLAY.md` (nút Google Play đã viết sẵn, đang để trong comment).
+
 FilmDesk được chuyển nguyên từ repo `filmdesk-public-info`. Repo cũ vẫn đăng ở địa chỉ cũ cho tới khi được thay bằng trang chuyển hướng.

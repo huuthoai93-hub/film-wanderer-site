@@ -11,7 +11,10 @@ import html, json, pathlib, re, urllib.parse
 BUILD = pathlib.Path(__file__).resolve().parent
 REPO = BUILD.parent.parent
 ROOT = REPO / "filmdesk"
-BASE = json.loads((REPO / "_build" / "site.json").read_text(encoding="utf-8"))["base"] + "filmdesk/"
+SITE = json.loads((REPO / "_build" / "site.json").read_text(encoding="utf-8"))
+BASE = SITE["base"] + "filmdesk/"
+# Store listing for the Google Play badge (commented out in template.html until the production release).
+PLAY = html.escape(SITE["filmdesk_play"], quote=True)
 # Order matches the app's language picker (AppLanguage).
 LANGS = [
     # code, folder, html lang / hreflang, short label, native name
@@ -72,7 +75,8 @@ for code, folder, tag, short, _ in LANGS:
     values["hero_meta"] = " ".join(
         f'<span class="nw">{x}{" ·" if i < len(parts) - 1 else ""}</span>' for i, x in enumerate(parts))
     values.update(mail_href=mailto(text["mail_subject"], text["mail_body"]), code=code, html_lang=tag, url=BASE + folder,
-                  base=BASE, root=root, hreflangs=alternates(""), langmenu=lang_menu(folder, root, ""), lang_short=short)
+                  base=BASE, root=root, hreflangs=alternates(""), langmenu=lang_menu(folder, root, ""), lang_short=short,
+                  play_url=PLAY, badge=code.lower())
     render(template, values, code, ROOT / folder / "index.html")
 
 # Privacy policy: <folder>privacy/index.html. English is the official text; the others are translations of it.

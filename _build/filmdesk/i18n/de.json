@@ -96,5 +96,14 @@
 "alt_3": "Filmvorrat: Rollen mit ISO, Format und Ablaufdatum",
 "alt_4": "Ausrüstung: Kameragehäuse mit Foto, belichteten Rollen und letzter Nutzung",
 "alt_5": "Galerie: Alben aus Logbuch-Fotos",
-"alt_6": "Scan-Vergleich: dasselbe Bild aus Original- und Neuscan übereinander"
+"alt_6": "Scan-Vergleich: dasselbe Bild aus Original- und Neuscan übereinander",
+"play_alt": "Jetzt bei Google Play",
+"play_legal": "Google Play und das Google Play-Logo sind Marken von Google LLC.",
+"og_description_live": "Rollen, Filmvorrat, Ausrüstung, Labore und Scans an einem Ort. Kostenlos bei Google Play.",
+"closing_h_live": "Starte dein Logbuch noch heute.",
+"closing_p_live": "FilmDesk ist kostenlos bei Google Play, ab Android 8. Pro ist ein Einmalkauf, wann immer du willst.",
+"q5": "Warum braucht FilmDesk nach der Wiederherstellung aus Google Drive mehr Speicher?",
+"a5": "Google Drive bewahrt deine Fotos in voller Qualität auf, deshalb holt die Wiederherstellung Kopien in voller Größe zurück, etwa viermal so groß wie optimierte. Um Platz zu schaffen, öffne Einstellungen → Speicher → Original-Kopien optimieren oder wähle im Menü einer Rolle Originale optimieren. Jede Kopie wird zu einem JPEG mit 2048 px an der langen Kante. Die Dateien in voller Qualität auf Drive bleiben unverändert, und Fotos, die noch auf den Upload warten, werden erst optimiert, wenn sie auf Drive sind.",
+"q6": "Reicht eine optimierte Kopie für Instagram oder Facebook?",
+"a6": "Ja. Instagram zeigt Fotos etwa 1080 px breit, Facebook bis etwa 2048 px, größere Dateien werden dort ohnehin verkleinert. Eine Kopie mit 2048 px sieht im Feed gleich aus, ist schneller gesendet und braucht weniger mobile Daten. Liegt das Original noch in der Galerie deines Handys, teilt FilmDesk stattdessen das Original."
 }
