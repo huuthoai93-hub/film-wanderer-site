@@ -58,7 +58,7 @@
       <span class="tag">Datenschutz · Android-App</span>
       <h1 class="head">FilmDesk <span class="hl">Datenschutzerklärung</span></h1>
       <p class="updated"><span class="soon">
-        <span><small>ZULETZT AKTUALISIERT</small><span class="big"><time datetime="2026-10-30">30. Oktober 2026</time></span></span>
+        <span><small>ZULETZT AKTUALISIERT</small><span class="big"><time datetime="2026-11-21">21. November 2026</time></span></span>
       </span></p>
       <p class="tr-note"><span>Dies ist eine Übersetzung. Weicht sie von der englischen Fassung ab, gilt die englische Fassung.</span> <a href="../../privacy/" hreflang="en" lang="en">Englische Fassung lesen →</a></p>
       <p class="lead">FilmDesk („die App“) ist ein Logbuch für Filmfotografie unter Android, entwickelt von einer Einzelperson. Diese Erklärung beschreibt, was die App mit deinen Informationen macht.</p>
@@ -85,7 +85,7 @@
         <a class="card g" href="#photos">
           <span class="ic" aria-hidden="true">02</span>
           <b>Nur die Fotos, die du hinzufügst</b>
-          <span>Die App durchsucht, analysiert, lädt oder teilt keine Fotos, die du keiner Rolle hinzugefügt hast.</span>
+          <span>Die App durchsucht, analysiert, lädt oder teilt keine Fotos, die du keiner Rolle und keinem Ausrüstungseintrag hinzugefügt hast.</span>
           <span class="more">Abschnitt 2 →</span>
         </a>
         <a class="card g" href="#drive">
@@ -128,32 +128,32 @@
           <p>Die App speichert Folgendes ausschließlich auf deinem Gerät, im privaten Speicher der App:</p>
           <ul>
             <li>Deine Logbuch-Einträge: Filmrollen, Filmvorrat, Kameras und Objektive, Labore, Notizen, Daten und Bildunterschriften, die du eingibst.</li>
-            <li>Kopien von Fotos, die du einer Rolle hinzufügst, wenn du einen Kopiermodus wählst, der eine Kopie in der App behält.</li>
+            <li>Kopien von Fotos, die du einer Rolle hinzufügst (wenn du einen Kopiermodus wählst, der eine Kopie in der App behält), sowie Fotos deiner Kameras und Objektive (Ausrüstung), die du für deine Ausrüstungseinträge auswählst oder aufnimmst.</li>
             <li>Verweise (Links) auf die Originalfotos in der Galerie deines Geräts.</li>
             <li>Deine Einstellungen, etwa Sprache, Design, Benachrichtigungen und die E-Mail-Adresse des Google-Kontos, das du für das Drive-Backup verbunden hast.</li>
           </ul>
           <p>Diese Daten werden nicht an den Entwickler gesendet. Wenn du die App deinstallierst oder ihre Daten löschst, werden sie von deinem Gerät entfernt.</p>
-          <p class="aside">Die Android-eigene automatische Sicherung (Auto Backup) kann die Datenbank und Einstellungen der App in deinem Google-Konto sichern, wie bei den meisten Apps. Fotokopien sind davon ausgenommen. Du kannst die automatische Sicherung in den Einstellungen deines Geräts ausschalten.</p>
+          <p class="aside">Die Android-eigene automatische Sicherung (Auto Backup) kann die Datenbank und Einstellungen der App in deinem Google-Konto sichern, wie bei den meisten Apps. Fotokopien (Rollenfotos und Ausrüstungsfotos) sind davon ausgenommen. Du kannst die automatische Sicherung in den Einstellungen deines Geräts ausschalten.</p>
         </section>
 
         <section class="clause" id="photos" aria-labelledby="h2">
           <h2 class="head" id="h2"><span class="n">02</span>Berechtigung für Fotos</h2>
           <p>Die App bittet um die Berechtigung, Fotos auf deinem Gerät zu lesen (<code>READ_MEDIA_IMAGES</code> oder „nur ausgewählte Fotos“, wenn du das wählst). Sie nutzt diese Berechtigung nur, um:</p>
           <ul>
-            <li>die Fotos anzuzeigen, die du deinem Logbuch hinzugefügt hast,</li>
+            <li>die Fotos anzuzeigen, die du deinem Logbuch oder deiner Ausrüstung hinzugefügt hast,</li>
             <li>zu prüfen, ob das Originalfoto noch auf deinem Gerät ist, damit sie dich warnen kann, bevor du ein Foto entfernst, und die richtige Quelle für das Drive-Backup wählt.</li>
           </ul>
-          <p class="key">Die App durchsucht, analysiert, lädt oder teilt keine Fotos, die du keiner Rolle hinzugefügt hast.</p>
+          <p class="key">Die App durchsucht, analysiert, lädt oder teilt keine Fotos, die du keiner Rolle und keinem Ausrüstungseintrag hinzugefügt hast.</p>
         </section>
 
         <section class="clause" id="drive" aria-labelledby="h3">
           <h2 class="head" id="h3"><span class="n">03</span>Google-Drive-Backup <span class="opt">optional</span></h2>
-          <p>Wenn du das Drive-Backup einschaltest, meldet sich die App mit deinem Google-Konto an und lädt die Fotos, die du deinem Logbuch hinzugefügt hast, in <strong>dein eigenes Google Drive</strong> hoch, in einen Ordner namens „FilmDesk“.</p>
+          <p>Wenn du das Drive-Backup einschaltest, meldet sich die App mit deinem Google-Konto an und lädt die Fotos, die du deinem Logbuch und deiner Ausrüstung (Kameras und Objektive) hinzugefügt hast, in <strong>dein eigenes Google Drive</strong> hoch, in einen Ordner namens „FilmDesk“.</p>
           <ul>
             <li>Wenn du das Logbuch-Backup einschaltest, speichert die App zusätzlich eine Kopie deiner Logbuch-Datenbank (<code>FilmDesk-Logbook.db</code>) im selben Ordner. Sie enthält deine Logbuch-Einträge: Rollen, Filmvorrat, Notizen, Namen von Kameras, Objektiven und Laboren, Aufnahmedaten und Bildunterschriften. Die App aktualisiert bei jedem Backup diese eine Datei und kann damit dein Logbuch wiederherstellen, wenn du die App neu installierst oder auf ein neues Gerät wechselst.</li>
             <li>Die App fordert nur den Bereich <code>drive.file</code> an. Sie kann nur die Dateien sehen und verwalten, die sie selbst erstellt hat. Andere Dateien in deinem Drive kann sie nicht lesen.</li>
-            <li>Die App löscht nie etwas in deinem Drive. Sie fügt nur Fotodateien hinzu und aktualisiert ihre eigene Logbuch-Backup-Datei. Wenn du in der App ein Foto oder eine Rolle entfernst, bleibt es in Drive erhalten.</li>
-            <li>Die App kann ihre eigenen Backup-Dateien aus deinem Drive herunterladen, um fehlende Fotokopien oder dein Logbuch wiederherzustellen.</li>
+            <li>Die App löscht nie etwas in deinem Drive. Sie fügt nur Fotodateien hinzu und aktualisiert ihre eigene Logbuch-Backup-Datei. Wenn du in der App ein Foto, eine Rolle oder einen Ausrüstungseintrag entfernst, bleibt es in Drive erhalten.</li>
+            <li>Die App kann ihre eigenen Backup-Dateien aus deinem Drive herunterladen, um fehlende Fotokopien, Ausrüstungsfotos oder dein Logbuch wiederherzustellen.</li>
             <li>Zugriffstoken werden von der App nicht gespeichert. Der Entwickler erhält nie deine Dateien, das Passwort deines Google-Kontos oder deine Token.</li>
             <li>Du kannst Drive in den Einstellungen trennen und der App den Zugriff jederzeit unter <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> entziehen.</li>
           </ul>
@@ -207,7 +207,7 @@
   <div class="wrap">
     <div>
       <div class="head">FILMDESK</div>
-      <div class="stamp">DATENSCHUTZERKLÄRUNG · STAND 30.10.2026</div>
+      <div class="stamp">DATENSCHUTZERKLÄRUNG · STAND 21.11.2026</div>
       <a class="fw-sign" href="../../../"><img class="fw-logo" loading="lazy" src="../../../assets/brand/film-wanderer-logo.webp" width="485" height="183" alt="Film Wanderer"></a>
     </div>
     <div class="links">

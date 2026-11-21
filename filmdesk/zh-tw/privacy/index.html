@@ -58,7 +58,7 @@
       <span class="tag">隱私權政策 · Android App</span>
       <h1 class="head">FilmDesk <span class="hl">隱私權政策</span></h1>
       <p class="updated"><span class="soon">
-        <span><small>最後更新</small><span class="big"><time datetime="2026-10-30">2026 年 10 月 30 日</time></span></span>
+        <span><small>最後更新</small><span class="big"><time datetime="2026-11-21">2026 年 11 月 21 日</time></span></span>
       </span></p>
       <p class="tr-note"><span>本頁為翻譯版本。若與英文版有出入，以英文版為準。</span> <a href="../../privacy/" hreflang="en" lang="en">閱讀英文版 →</a></p>
       <p class="lead">FilmDesk（以下稱「本 App」）是一款 Android 底片攝影日誌，由一位個人開發者製作。本政策說明本 App 如何處理你的資訊。</p>
@@ -85,7 +85,7 @@
         <a class="card g" href="#photos">
           <span class="ic" aria-hidden="true">02</span>
           <b>只處理你加入的照片</b>
-          <span>你沒有加入底片卷的照片，本 App 不會掃描、分析、上傳或分享。</span>
+          <span>你沒有加入底片卷或器材項目的照片，本 App 不會掃描、分析、上傳或分享。</span>
           <span class="more">第 2 節 →</span>
         </a>
         <a class="card g" href="#drive">
@@ -128,32 +128,32 @@
           <p>本 App 只會將以下內容存在你的裝置上，位於本 App 的私人儲存空間：</p>
           <ul>
             <li>你的日誌內容：底片卷、底片庫存、相機與鏡頭、沖洗店、筆記、日期，以及你輸入的說明文字。</li>
-            <li>若你選擇在 App 內保留副本的複製模式，你加入底片卷的照片副本。</li>
+            <li>若你選擇在 App 內保留副本的複製模式，你加入底片卷的照片副本，以及你為器材項目選擇或拍攝的相機與鏡頭（器材）照片。</li>
             <li>指向裝置相簿中原始照片的參照（連結）。</li>
             <li>你的設定，例如語言、主題、通知偏好，以及你為雲端硬碟備份所連結之 Google 帳號的電子郵件地址。</li>
           </ul>
           <p>這些資料不會傳給開發者。若你解除安裝本 App 或清除其資料，資料就會從你的裝置上刪除。</p>
-          <p class="aside">與大多數 App 一樣，Android 本身的自動備份（Auto Backup）可能會將本 App 的資料庫與設定備份到你的 Google 帳號。照片副本不在自動備份範圍內。你可以在裝置設定中關閉自動備份。</p>
+          <p class="aside">與大多數 App 一樣，Android 本身的自動備份（Auto Backup）可能會將本 App 的資料庫與設定備份到你的 Google 帳號。照片副本（底片卷照片與器材照片）不在自動備份範圍內。你可以在裝置設定中關閉自動備份。</p>
         </section>
 
         <section class="clause" id="photos" aria-labelledby="h2">
           <h2 class="head" id="h2"><span class="n">02</span>相片存取權限</h2>
           <p>本 App 會要求讀取你裝置上相片的權限（<code>READ_MEDIA_IMAGES</code>，或你選擇的「僅限所選相片」）。本 App 只將此權限用於：</p>
           <ul>
-            <li>顯示你加入日誌的照片，</li>
+            <li>顯示你加入日誌或器材的照片，</li>
             <li>確認原始照片是否仍在你的裝置上，以便在你移除照片前提醒你，並為雲端硬碟備份選擇正確的來源。</li>
           </ul>
-          <p class="key">你沒有加入底片卷的照片，本 App 不會掃描、分析、上傳或分享。</p>
+          <p class="key">你沒有加入底片卷或器材項目的照片，本 App 不會掃描、分析、上傳或分享。</p>
         </section>
 
         <section class="clause" id="drive" aria-labelledby="h3">
           <h2 class="head" id="h3"><span class="n">03</span>Google 雲端硬碟備份 <span class="opt">可選</span></h2>
-          <p>若你開啟雲端硬碟備份，本 App 會以你的 Google 帳號登入，並將你加入日誌的照片上傳到<strong>你自己的 Google 雲端硬碟</strong>中名為「FilmDesk」的資料夾。</p>
+          <p>若你開啟雲端硬碟備份，本 App 會以你的 Google 帳號登入，並將你加入日誌與器材（相機與鏡頭）的照片上傳到<strong>你自己的 Google 雲端硬碟</strong>中名為「FilmDesk」的資料夾。</p>
           <ul>
             <li>若你開啟日誌備份，本 App 也會在同一資料夾中儲存一份日誌資料庫的副本（<code>FilmDesk-Logbook.db</code>）。其中包含你的日誌內容：底片卷、底片庫存、筆記、相機、鏡頭與沖洗店名稱、拍攝日期與說明文字。本 App 每次備份都會更新這一個檔案，並可在你重新安裝 App 或換到新裝置時，用它來還原你的日誌。</li>
             <li>本 App 只要求 <code>drive.file</code> 範圍。它只能看見並管理自己建立的檔案，無法讀取你雲端硬碟中的任何其他檔案。</li>
-            <li>本 App 絕不刪除你雲端硬碟中的任何東西。它只會新增照片檔案，並更新自己的日誌備份檔。在 App 中移除照片或底片卷，不會將其從雲端硬碟刪除。</li>
-            <li>本 App 可以從你的雲端硬碟下載自己的備份檔，用來還原遺失的照片副本或你的日誌。</li>
+            <li>本 App 絕不刪除你雲端硬碟中的任何東西。它只會新增照片檔案，並更新自己的日誌備份檔。在 App 中移除照片、底片卷或器材項目，不會將其從雲端硬碟刪除。</li>
+            <li>本 App 可以從你的雲端硬碟下載自己的備份檔，用來還原遺失的照片副本、器材照片或你的日誌。</li>
             <li>本 App 不會儲存存取權杖。開發者絕不會取得你的檔案、Google 帳號密碼或權杖。</li>
             <li>你可以在設定中中斷雲端硬碟連結，並隨時在 <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> 移除本 App 的存取權。</li>
           </ul>
@@ -207,7 +207,7 @@
   <div class="wrap">
     <div>
       <div class="head">FILMDESK</div>
-      <div class="stamp">隱私權政策 · 最後更新 2026-10-30</div>
+      <div class="stamp">隱私權政策 · 最後更新 2026-11-21</div>
       <a class="fw-sign" href="../../../"><img class="fw-logo" loading="lazy" src="../../../assets/brand/film-wanderer-logo.webp" width="485" height="183" alt="Film Wanderer"></a>
     </div>
     <div class="links">
